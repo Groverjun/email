@@ -61,7 +61,7 @@
 			}
 			.name{
 				padding: 0.4rem;
-			  	margin-top: 0.5rem;
+			  	margin-top: 0.7rem;
 			  	display: flex;
 				flex-wrap: wrap;
 				color: #fff;
@@ -75,24 +75,32 @@
 			}
 			.name li img{margin-right: 10px;}
 			.bottom{
-				padding: 0.4rem;
+				padding: 0.4rem 0.4rem 0;
 				display: flex;
-				
+				color: #fff;
+			}
+			.bottom h3{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 0em;
+				z-index: 100;
 			}
 			.bottom .img{
 				width: 55%;
-				height: 6rem;
+				height: 5rem;
 				position: relative;
 			}
 			.bottom .img>img{
 				position: absolute;
+				top: 1rem;
 			}
 			.bottom .img>p{
 				position: absolute;
 				z-index: 10;
 				width: 2.8rem;
 				height: 2.8rem;
-				top: -2rem;
+				top: -1rem;
 				left: 0;
 				right: 0;
 				bottom: 0;
@@ -106,7 +114,7 @@
 				width: 45%;
 				font-size: 0.3rem;
 				color: #fff;
-				margin-top: 0.5rem;
+				margin-top: 1rem;
 			}
 			.bottom ol li{margin-bottom: 0.2rem;}
 			.bottom ol button{
@@ -133,13 +141,10 @@
 				 <p class="clearfix">祝您工作顺利，万事如意！<a href="http://syb.wayboo.net.cn/">登录生意帮入口</a></p>
 			</div>
 		</div>
-		<ul class="name">
-			<li><img src="images/name1.jpg"/>您的VIP服务专员：李俊杰<span></span></li>
-			<li><img src="images/vip1.jpg"/>VIP专属服务部：北京信融<span></span></li>
-			<li><img src="images/tel1.jpg"/>联系电话：15835544760<span></span></li>
-		</ul>
+		
 		<div class="bottom clearfix">
 			<div class="img">
+				<h3>微信同步接受</h3>
 				<img src="images/mindex_bg.jpg" width="100%"/>
 				<p><img src="images/xinrong.jpg" width="100%"/></p>
 			</div>
@@ -153,9 +158,14 @@
 					
 				</li>
 				<li><button>长按保存二维码
-扫一扫识别生意帮公众号</button></li>
+				扫一扫识别生意帮公众号</button></li>
 			</ol>
 		</div>
+		<ul class="name">
+			<li><img src="images/name1.jpg"/>您的VIP服务专员：李俊杰<span></span></li>
+			<li><img src="images/vip1.jpg"/>VIP专属服务部：北京信融<span></span></li>
+			<li><img src="images/tel1.jpg"/>联系电话：15835544760<span></span></li>
+		</ul>
 	</body>
 	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 </html>
