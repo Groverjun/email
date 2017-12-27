@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;box-sizing: border-box;font-family: "微软雅黑";}
+			ul,ol{list-style: none;}
+			a{color: #fff;text-decoration: none;}
+			.clearfix:after {
+			  content: "\0020";
+			  display: block;
+			  height: 0;
+			  cursor: pointer;
+			  clear: both; }
+			
+			.clearfix {
+			  zoom: 1; }
+			  body{
+			  	background: #32345e;
+			  }
+			  .head{
+			  	padding: 0.38rem ;
+			  }
+			  .user{
+			  	width: 9rem;
+			  	background: #fff;
+			  	margin: auto;
+			  	border-radius: 5px;
+			  	padding: 0.4rem;
+			  	margin-top: 0.5rem;
+			  }
+			  .user>h1{
+				font-size: 0.8rem;
+				font-weight: normal;
+				font-weight: 300;
+			}
+			.user>h1>span{
+				font-weight:500;
+				margin-right: 0.6rem;
+			}
+			.user>div{
+				font-size: 0.35rem;
+				line-height: 0.7rem;
+			}
+			.user>div p{
+				margin-top: 0.5rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.user>div p a{
+				width: 3rem;
+				padding: 5px;
+				background: #8e90b9;
+				float: right;
+				font-size: 0.3rem;
+				text-align: center;
+				border-radius: 5px;
+			}
+			.name{
+				padding: 0.4rem;
+			  	margin-top: 0.5rem;
+			  	display: flex;
+				flex-wrap: wrap;
+				color: #fff;
+			  	justify-content: space-between;
+			}
+			.name li{
+
+				display: flex;
+				align-items: center;
+				margin-bottom: 0.4rem;
+			}
+			.name li img{margin-right: 10px;}
+			.bottom{
+				padding: 0.4rem;
+				display: flex;
+				
+			}
+			.bottom .img{
+				width: 55%;
+				height: 6rem;
+				position: relative;
+			}
+			.bottom .img>img{
+				position: absolute;
+			}
+			.bottom .img>p{
+				position: absolute;
+				z-index: 10;
+				width: 2.8rem;
+				height: 2.8rem;
+				top: -2rem;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+			}
+			.bottom .img>p img{
+				border: 5px solid #485f93;
+			}
+			.bottom ol{
+				float: right;
+				width: 45%;
+				font-size: 0.3rem;
+				color: #fff;
+				margin-top: 0.5rem;
+			}
+			.bottom ol li{margin-bottom: 0.2rem;}
+			.bottom ol button{
+				border: none;
+				color: #fff;
+				text-align: left;
+				background: #39a9a8;
+				padding: 8px ;
+				font-size: 0.2rem;
+}
+		</style>
+	</head>
+	<body>
+		<div class="head">
+			<img src="images/logo.jpg"/>
+		</div>
+		<div class="user">
+			<h1><span>周雅楠</span>您好!</h1>
+			<div>
+				【生意帮】您于2017-12-26收到一条来自信融生意帮的新商机，具体信息如下：<br />
+				 留言人：<span>xxx</span>
+				 电话：<span>xxx</span>
+				 内容：<span>xxx</span>
+				 <p class="clearfix">祝您工作顺利，万事如意！<a href="http://syb.wayboo.net.cn/">登录生意帮入口</a></p>
+			</div>
+		</div>
+		<ul class="name">
+			<li><img src="images/name1.jpg"/>您的VIP服务专员：李俊杰<span></span></li>
+			<li><img src="images/vip1.jpg"/>VIP专属服务部：北京信融<span></span></li>
+			<li><img src="images/tel1.jpg"/>联系电话：15835544760<span></span></li>
+		</ul>
+		<div class="bottom clearfix">
+			<div class="img">
+				<img src="images/mindex_bg.jpg" width="100%"/>
+				<p><img src="images/xinrong.jpg" width="100%"/></p>
+			</div>
+			<ol>
+				<li>
+					<h4>呈现最直观的营销效果助力企业盆满钵盈</h4>
+					
+				</li>
+				<li>
+					<p>生意帮让你及时了解所有新商机</p>
+					
+				</li>
+				<li><button>长按保存二维码
+扫一扫识别生意帮公众号</button></li>
+			</ol>
+		</div>
+	</body>
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+</html>
