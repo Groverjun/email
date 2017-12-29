@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no"/> 
 		<title></title>
 		<style type="text/css">
 			*{margin: 0;padding: 0;box-sizing: border-box;font-family: "微软雅黑";}
@@ -23,8 +24,10 @@
 			  .head{
 			  	padding: 0.38rem ;
 			  }
+			  .userBox{
+			  	padding: 0.38rem ;
+			  }
 			  .user{
-			  	width: 9rem;
 			  	background: #fff;
 			  	margin: auto;
 			  	border-radius: 5px;
@@ -77,6 +80,7 @@
 				padding: 0.4rem 0.4rem 0;
 				display: flex;
 				color: #fff;
+				justify-content: space-between;
 			}
 			.bottom h3{
 				width: 100%;
@@ -86,7 +90,7 @@
 				z-index: 100;
 			}
 			.bottom .img{
-				width: 55%;
+				width: 5rem;
 				height: 5rem;
 				position: relative;
 			}
@@ -110,7 +114,7 @@
 			}
 			.bottom ol{
 				float: right;
-				width: 45%;
+				width: 4.5rem;
 				font-size: 0.3rem;
 				color: #fff;
 				margin-top: 1rem;
@@ -126,18 +130,20 @@
 }
 		</style>
 	</head>
-	<body>
+	<body id="body">
 		<div class="head">
 			<img src="images/logo.jpg"/>
 		</div>
-		<div class="user">
-			<h1><span>周雅楠</span>您好!</h1>
-			<div>
-				【生意帮】您于2017-12-26收到一条来自信融生意帮的新商机，具体信息如下：<br />
-				 留言人：<span>xxx</span>
-				 电话：<span>xxx</span>
-				 内容：<span>xxx</span>
-				 <p class="clearfix">祝您工作顺利，万事如意！<a href="http://syb.wayboo.net.cn/">登录生意帮入口</a></p>
+		<div class="userBox">
+			<div class="user">
+				<h1><span>周雅楠</span>您好!</h1>
+				<div>
+					【生意帮】您于2017-12-26收到一条来自信融生意帮的新商机，具体信息如下：<br />
+					 留言人：<span>xxx</span>
+					 电话：<span>xxx</span>
+					 内容：<span>xxx</span>
+					 <p class="clearfix">祝您工作顺利，万事如意！<a href="http://syb.wayboo.net.cn/">登录生意帮入口</a></p>
+				</div>
 			</div>
 		</div>
 		
@@ -161,10 +167,12 @@
 			</ol>
 		</div>
 		<ul class="name">
-			<li><img src="images/name1.jpg"/>您的VIP服务专员：李俊杰<span></span></li>
-			<li><img src="images/vip1.jpg"/>VIP专属服务部：北京信融<span></span></li>
-			<li><img src="images/tel1.jpg"/>联系电话：15835544760<span></span></li>
+			<li><img src="images/name1.jpg"/>您的VIP服务专员：<span>周雅楠</span></li>
+			<li><img src="images/vip1.jpg"/>VIP专属服务部：<span>北京信融</span></li>
+			<li><img src="images/tel1.jpg"/>联系电话：<span>15835544760</span></li>
 		</ul>
 	</body>
+
 	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	
 </html>
